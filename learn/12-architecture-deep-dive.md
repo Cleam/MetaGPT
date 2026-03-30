@@ -433,19 +433,21 @@ graph TD
     S8 --> S3
 ```
 
-### 关键文件行数参考
+### 关键文件速查
 
-| 文件 | 行数 | 核心内容 |
-|------|------|---------|
-| `schema.py` | ~976 | Message, Document, Plan, Task |
-| `roles/role.py` | ~600 | Role, RoleContext, ReactMode |
-| `actions/action.py` | ~120 | Action 基类 |
-| `actions/action_node.py` | ~400 | ActionNode 结构化输出 |
-| `environment/base_env.py` | ~250 | Environment 消息路由 |
-| `team.py` | ~140 | Team 团队管理 |
-| `provider/base_llm.py` | ~200 | BaseLLM 抽象接口 |
-| `memory/memory.py` | ~100 | Memory 短期记忆 |
-| `context.py` | ~130 | Context 全局上下文 |
+| 文件 | 核心内容 |
+|------|---------|
+| `schema.py` | Message, Document, Plan, Task 等数据模型 |
+| `roles/role.py` | Role, RoleContext, ReactMode 角色核心 |
+| `actions/action.py` | Action 基类 |
+| `actions/action_node.py` | ActionNode 结构化输出 |
+| `environment/base_env.py` | Environment 消息路由 |
+| `team.py` | Team 团队管理 |
+| `provider/base_llm.py` | BaseLLM 抽象接口 |
+| `memory/memory.py` | Memory 短期记忆 |
+| `context.py` | Context 全局上下文 |
+
+> 💡 **提示**：以上文件路径均在 `metagpt/` 目录下，建议直接查阅源码以获取最新信息。
 
 ---
 
